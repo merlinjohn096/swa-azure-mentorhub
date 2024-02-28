@@ -23,7 +23,7 @@ function App() {
         </h1>
         <button className="button" type="button" onClick={onButtonClick}>Trigger Function</button>
         {flag &&  (<div>
-          <p>Testing Pull request environment</p>
+          <p>Testing branch environment</p>
           <b>{data}</b>
         </div>)}
       </header>
